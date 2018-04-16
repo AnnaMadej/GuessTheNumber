@@ -6,10 +6,12 @@
 
     <bean id="NumberGenerator" class="academy.learnprogramming.NumberGeneratorImpl"/>
 
-    <bean id="Game" class="academy.learnprogramming.GameImpl" init-method="reset">
+    <bean id="Game" class="academy.learnprogramming.GameImpl">
 <!--        <constructor-arg ref="NumberGenerator"/>-->
         <property name="numberGenerator" ref="NumberGenerator"/>
-
     </bean>
+
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
 </beans>
 
