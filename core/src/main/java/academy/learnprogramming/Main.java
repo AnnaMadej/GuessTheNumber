@@ -16,14 +16,14 @@ public class Main {
         // create the context
         ConfigurableApplicationContext context = new ClassPathXmlApplicationContext(CONFIG_LOCATION);
 
-        NumberGenerator numberGenerator = context.getBean("NumberGenerator", NumberGenerator.class);
+        NumberGenerator numberGenerator = context.getBean(NumberGenerator.class);
 
         int number = numberGenerator.next();
         log.info("number = {}", number);
 
 
         // get game bean from context (container)
-        Game game = context.getBean("Game", Game.class);
+        Game game = context.getBean(Game.class);
 
         // call reset method
 //         game.reset();

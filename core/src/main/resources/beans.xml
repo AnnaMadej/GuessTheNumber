@@ -7,13 +7,15 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:annotation-config/>
-    <bean id="NumberGenerator" class="academy.learnprogramming.NumberGeneratorImpl"/>
+<!--    <context:annotation-config/>-->
+    <context:component-scan base-package="academy.learnprogramming"/>
 
-    <bean id="Game" class="academy.learnprogramming.GameImpl">
-<!--        <constructor-arg ref="NumberGenerator"/>-->
-<!--        <property name="numberGenerator" ref="NumberGenerator"/>-->
-    </bean>
+<!--    <bean id="NumberGenerator" class="academy.learnprogramming.NumberGeneratorImpl"/>-->
+
+<!--    <bean id="Game" class="academy.learnprogramming.GameImpl">-->
+<!--&lt;!&ndash;        <constructor-arg ref="NumberGenerator"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="numberGenerator" ref="NumberGenerator"/>&ndash;&gt;-->
+<!--    </bean>-->
 
 <!--    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>-->
 
