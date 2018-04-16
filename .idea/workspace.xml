@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="0923de53-1528-412c-8e57-86ddd002fbb7" name="Default Changelist" comment="" />
+=======
     <list default="true" id="0923de53-1528-412c-8e57-86ddd002fbb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/ConsoleNumberGuess.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/ConsoleNumberGuess.class" afterDir="false" />
     </list>
+>>>>>>> 2a3abdd... ApplicationListener<ContextRefreshedEvent>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +37,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1aZYCzwVlCKDjidUQ5GDBklDWiW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,11 +68,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.Main" />
-      <module name="core" />
+      <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.console.Main" />
+      <module name="console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.learnprogramming.*" />
+          <option name="PATTERN" value="academy.learnprogramming.console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,52 +110,60 @@
       <updated>1586944459675</updated>
       <workItem from="1586944464073" duration="7696000" />
       <workItem from="1587014412438" duration="9431000" />
+      <workItem from="1587026653656" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Project_Structure" timestamp="1586945845444">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1587026719938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="72" key="#Project_Structure/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1586945845444" />
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1587023375468">
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587026719938" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1587027136557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587023375468" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587027136557" />
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587022161884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587022161884" />
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1587024815715">
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1523869121667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587024815715" />
-    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1587024815715">
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1523869121667" />
+    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1523869121667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587024815715" />
-    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1587024815715">
+    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1523869121667" />
+    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1523869121667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587024815715" />
-    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1587024815715">
+    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1523869121667" />
+    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1523869121667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587024815715" />
+    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1523869121667" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1587026653989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587026653989" />
     <state x="567" y="103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587014441197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="567" y="103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587014441197" />
-    <state x="273" y="94" key="new project wizard" timestamp="1586957077790">
+    <state x="273" y="94" key="new project wizard" timestamp="1587026679704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="273" y="94" key="new project wizard/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1586957077790" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1586945753985">
+    <state x="273" y="94" key="new project wizard/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587026679704" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1587026872233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1586945753985" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/-1280.50.1280.1024@0.0.1536.824" timestamp="1587026872233" />
   </component>
 </project>
