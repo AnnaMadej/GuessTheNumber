@@ -23,6 +23,13 @@ public class Main {
         // get game bean from context (container)
         Game game = context.getBean(Game.class);
 
+        // get message generator from context (container)
+        MessageGenerator generator = context.getBean(MessageGenerator.class);
+
+        log.info("getMainMessage= {}", generator.getMainMessage());
+
+        log.info("getResultMessage= {}", generator.getResultMessage());
+
         // call reset method
 //         game.reset();
 
