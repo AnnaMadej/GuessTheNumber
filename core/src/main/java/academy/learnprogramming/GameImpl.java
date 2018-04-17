@@ -3,27 +3,37 @@ package academy.learnprogramming;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-//@Component
+@Component
 public class GameImpl implements Game {
     // == constants ==
 
     private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
 
+
+
     // == fields ==
-    @Autowired
     private NumberGenerator numberGenerator;
 
-    private int guessCount = 10;
+    private int guessCount;
+
+    @Autowired
+    public GameImpl(NumberGenerator numberGenerator, @GuessCount int guessCount){
+        this.numberGenerator = numberGenerator;
+        this.guessCount = guessCount;
+    }
+
     private int number;
     private int guess;
     private int smallest;
     private int biggest;
     private int remainingGuesses;
     private boolean validNumberRange = true;
+
 
 //    // == constructors ==
 //    public GameImpl(NumberGenerator numbergenerator) {
@@ -41,7 +51,7 @@ public class GameImpl implements Game {
     @PostConstruct
     @Override
     public void reset() {
-        smallest = 0;
+        smallest = numberGenerator.getMinNumber();
         guess = 0;
         remainingGuesses = guessCount;
         biggest = numberGenerator.getMaxNumber();
@@ -114,6 +124,11 @@ public class GameImpl implements Game {
     @Override
     public boolean isGameLost() {
         return !isGameWon() && remainingGuesses <= 0;
+    }
+
+    @Override
+    public int getGuessCount() {
+        return guessCount;
     }
 
     // == private methods ==

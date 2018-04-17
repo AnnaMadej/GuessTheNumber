@@ -3,9 +3,11 @@ package academy.learnprogramming;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
+@Component
 public class MessageGeneratorImpl implements MessageGenerator {
 
     // == constants ==
@@ -14,8 +16,6 @@ public class MessageGeneratorImpl implements MessageGenerator {
     // == fields ==
     @Autowired
     private Game game;
-
-    private int guessCount = 10;
 
     // == init methods ==
     @PostConstruct
@@ -40,7 +40,7 @@ public class MessageGeneratorImpl implements MessageGenerator {
         else if (!game.isValidNumberRange()){
             return "Invalid number range";
         }
-        else if (game.getRemainingGuesses() == guessCount){
+        else if (game.getRemainingGuesses() == game.getGuessCount()){
             return "What is your first guess?";
         }
         else {
@@ -48,7 +48,7 @@ public class MessageGeneratorImpl implements MessageGenerator {
             if (game.getGuess() < game.getNumber()){
                 direction = "Higher";
             }
-            return direction + "! You have " + game.getRemainingGuesses() + "guesses left";
+            return direction + "! You have " + game.getRemainingGuesses() + " guesses left";
         }
     }
 
